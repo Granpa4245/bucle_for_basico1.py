@@ -17,8 +17,9 @@ elif Elegi == 3:#Contando Vanilla Ice: imprime los números enteros del 1 al 100
        else:
         print(i)
 elif Elegi == 4:#Wow. Número gigante a la vista: suma los números pares del 0 al 500,000 e imprime la suma total. (Sorpresa, será un número gigante).
-
-    suma = sum(range(0, 500001,2))
+    suma = 0
+    for i in range(0, 500001, 2):
+        suma += i
     print(suma)
 elif Elegi == 5:#Regrésame al 3: imprime los números positivos comenzando desde 2024, en cuenta regresiva de 3 en 3.
     for i in range(2023, 0, -3):
