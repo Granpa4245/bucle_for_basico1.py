@@ -22,7 +22,7 @@ elif Elegi == 4:#Wow. Número gigante a la vista: suma los números pares del 0 
         suma += i
     print(suma)
 elif Elegi == 5:#Regrésame al 3: imprime los números positivos comenzando desde 2024, en cuenta regresiva de 3 en 3.
-    for i in range(2023, 0, -3):
+    for i in range(2024, 0, -3):
      print(i)
 
 
